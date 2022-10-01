@@ -1,6 +1,7 @@
 
 main{
-    margin-top: 170px;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 header{
     top:0px;
@@ -12,7 +13,7 @@ header{
 }
 .shop .filter{
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 10%;
     width: 80%;
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
@@ -22,12 +23,21 @@ header{
 
 .h2 {
     margin: 5px 50px;
-    padding-top: 18 px;
+    margin-top: -80px;
+    padding-top: 180px;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.filter {
+    display: flex;
+    
 }
 
 .filter div{
-    display: inline-block;
-    padding:1px;
+    display: flex;
+    padding: 5px;
 }
 .filter .h2{
     line-height: 0px;
@@ -208,9 +218,32 @@ main .shop :hover .new{
     flex-direction: column;
 }
 }
-@media screen and (max-width: 413px){
+@media screen and (max-width: 414px){
 
-    
+    main{
+        
+        margin-left: 10px;
+    }
+
+    .h2 {
+        display: flex;
+        margin-left: -5px;
+        margin-top: 50px;
+        padding-top: 127px;
+       
+    }
+
+   
+  
+    .shop .filter {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .filter {
+        display: flex;
+        flex-direction: row;
+        max-width: 30px;
+    }
     .filter .po_chan_a .po_chan{
         height: 30px;
         width: 80px;
